@@ -1,0 +1,44 @@
+
+/*CSS variables*/
+
+:root{
+  --base:#ffc600;
+  --spacing:10px;
+  --blur:10px;
+}
+
+
+
+
+body{
+  text-align: center;
+}
+
+body{
+  background: #011627;
+  color: white;
+  font-family: 'Futura',sans-serif;
+  font-weight: 100px;
+  font-size: 40px;
+}
+
+img{
+  width: 800px;
+  height: 500px;
+  padding: var(--spacing);
+  background: var(--base);
+  filter: blur(var(--blur));
+}
+
+.h1{
+  color: var(--base); 
+}
+
+.container{
+  margin-bottom: 100px;
+}
+
+input{
+  width: 100px;
+}
+
